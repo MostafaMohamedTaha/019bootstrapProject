@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!--first mobile meta-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>bootstrap</title>
+            <link rel="stylesheet" href="css/bootstrap.css" />
+            <link rel="stylesheet" href="css/all.min.css" />
+            <link rel="stylesheet" href="css/bootstrapModify.css" />
+            <!-- <link rel="stylesheet" href="css/bootstrap-rtl.css" /> -->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap">
+            <link rel="stylesheet" href="css/default-theme.css" />
+            <link rel="stylesheet" href="css/red-theme.css" />
+            <link rel="stylesheet" href="css/blue-theme.css" />
+            <link rel="stylesheet" href="css/yellow-theme.css" />
+            <link rel="stylesheet" href="css/orange-theme.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/faq.css" />
+            <link rel="stylesheet" href="css/hover.css" />
+            <link rel="stylesheet" href="css/hover.css.map" />
+            <link rel="stylesheet" href="css/animate.css" />
+    </head>
+    <body>
+      <!-- Start SEction Tool Box -->
+      <section class="option-box ">
+        <div class="color-option">
+          <h4>Color Option</h4>
+          <ul class="list-unstyled">
+            <li data-value="css/default-theme.css"></li>
+            <li data-value="css/orange-theme.css"></li>
+            <li data-value="css/blue-theme.css"></li>
+            <li data-value="css/red-theme.css"></li>
+            <li data-value="css/yellow-theme.css"></li>
+            
+          </ul>
+        </div>
+        <i class="fas fa-cog fa-3x check-gear hvr-grow"></i>
+      </section>
+      <!-- End SEction Tool Box -->
+        <!--col max 12 lg-4 large screen / 3-->
+        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand pop" href="#">Mostafa<span>inc</span></a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="html.html">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li class="active"><a href="FAQ.html">FAQ</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">get</a></li>
+                      <li><a href="#">your work</a></li>
+                      <li><a href="#">off </a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">yad</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">hi you are here yad</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <!-- <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Link</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                </ul> -->
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+          <!-- End Navbar -->
+          <!-- Start broadcrumbs -->
+          <div class="breadcrumb-holder">
+            <div class="container">
+              <ol class="breadcrumb">
+                <li><a href="html.html">Home</a></li>
+                <li><a href="FAQ.html">About Us</a></li>
+                <li class="active">FAQ</li>
+              </ol>
+            </div>
+          </div>
+          <!-- End broadcrumbs -->
+          <!-- Start FAQ Intro -->
+          <section class="faq text-center">
+            <div class="container">
+              <h1>Frequently Asked Questions</h1>
+              <hr>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia atque aspernatur assumenda, impedit, quia, porro quidem possimus necessitatibus quae omnis ipsum quibusdam totam ratione at similique consequatur ea ullam eos!
+              </p>
+            </div>
+          </section>
+          <!-- End FAQ Intro -->
+          <!-- Start FAQ Accordion -->
+          <section class="faq-accordion">
+            <div class="container">
+              <div class="panel-group" id="Accordion" roles="tablist" aria-multiselectable="true">
+                <!-- Start Question 1 -->
+                <div class="panel-question panel-default">
+                  <div class="panel-heading" roles="tab" id="heading-one">
+                    <h4 class="panel-title">
+                      <a class="collapsed-in" data-toggle="collapse" data-parent="#accordion" href="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+                        #01 How To Use Bootstrap Version 3.0
+                      </a>
+                    </h4>
+                    <div class="collapse panel-collapse in" id="collapse-one" roles="tabpanel" aria-labelledby="heading-one">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perspiciatis voluptatibus dicta aperiam impedit, sapiente dignissimos reprehenderit quos omnis repudiandae ipsa nulla iste reiciendis. Non exercitationem nisi cumque? Aperiam, est.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Question 1 -->
+                <!-- Start Question 2 -->
+                <div class="panel-question panel-default">
+                  <div class="panel-heading" roles="tab" id="heading-two">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-two" aria-expanded="true" aria-controls="collapse-two">
+                        #02 How To Use Jquery Version 3.0
+                      </a>
+                    </h4>
+                    <div class="collapse panel-collapse" id="collapse-two" roles="tabpanel" aria-labelledby="heading-two">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perspiciatis voluptatibus dicta aperiam impedit, sapiente dignissimos reprehenderit quos omnis repudiandae ipsa nulla iste reiciendis. Non exercitationem nisi cumque? Aperiam, est.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Question 2 -->
+                <!-- Start Question 3 -->
+                <div class="panel-question panel-default">
+                  <div class="panel-heading" roles="tab" id="heading-three">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-three" aria-expanded="true" aria-controls="collapse-three">
+                        #03 How To Use Wordpress Version 3.0
+                      </a>
+                    </h4>
+                    <div class="collapse panel-collapse" id="collapse-three" roles="tabpanel" aria-labelledby="heading-three">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perspiciatis voluptatibus dicta aperiam impedit, sapiente dignissimos reprehenderit quos omnis repudiandae ipsa nulla iste reiciendis. Non exercitationem nisi cumque? Aperiam, est.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Question 3 -->
+                <!-- Start Question 4 -->
+                <div class="panel-question panel-default">
+                  <div class="panel-heading" roles="tab" id="heading-four">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-four" aria-expanded="true" aria-controls="collapse-four">
+                        #04 How To Use Php Version 3.0
+                      </a>
+                    </h4>
+                    <div class="collapse panel-collapse" id="collapse-four" roles="tabpanel" aria-labelledby="heading-four">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error perspiciatis voluptatibus dicta aperiam impedit, sapiente dignissimos reprehenderit quos omnis repudiandae ipsa nulla iste reiciendis. Non exercitationem nisi cumque? Aperiam, est.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Question 4 -->
+              </div>
+            </div>
+          </section>
+          <!-- End FAQ Accordion -->
+          <!-- Start Footer -->
+          <section class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <h3>Site Map</h3>
+                  <ul ul class="list-unstyled three-columns">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Company</li>
+                    <li>Code</li>
+                    <li>Design</li>
+                    <li>Solution</li>
+                    <li>Site Map</li>
+                    <li>Contact us</li>
+                  </ul>
+                  <div class="contact">
+                    <i class="fab fa-facebook fa-3x"></i>
+                    <i class="fab fa-youtube fa-3x"></i>
+                    <i class="fab fa-instagram fa-3x"></i>
+                    <i class="fab fa-linkedin-in fa-3x"></i>
+                    <i class="fab fa-twitter fa-3x"></i>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <h3>Latest Articles</h3>
+                  <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" src="image/article/01.jpg" alt="" />
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Programming</h4>
+                      <p> voluptas est nesciunt impedit qui unde! Dolor, inventore voluptate. Aliquam sint iste eligendi.</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" src="image/article/02.png" alt="" />
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Coding</h4>
+                      <p>saepe neque voluptas est nesciunt impedit qui unde! Dolor, inventore voluptate. Aliquam sint iste eligendi.</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <a class="pull-left" href="#">
+                      <img class="media-object" src="image/article/03.png" alt="" />
+                    </a>
+                    <div class="media-body">
+                      <h4 class="media-heading">Web Design</h4>
+                      <p> saepe neque voluptas est nesciunt impedit qui unde! Dolor, inventore voluptate. Aliquam sint iste eligendi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <h3>Our Awsome Work</h3>
+                  <img class="img-thumbnail" src="image/work/01.png" alt="" />
+                  <img class="img-thumbnail" src="image/work/02.png" alt="" />
+                  <img class="img-thumbnail" src="image/work/03.png" alt="" />
+                  <img class="img-thumbnail" src="image/work/04.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="copyright text-center">
+              <p>Copyright &copy; 2021 <span>Your Template Name</span>.Inc</p>
+            </div>
+          </section>
+          <!-- End Footer -->
+          <!-- Start loading -->
+          <div class="loading">
+            <div class="spinner"></div>
+          </div>
+          <!-- End loading -->
+          <!-- Start Scroll To Top -->
+          <div id="scroll-top">
+            <i class="fa fa-chevron-up fa-3x"></i>
+          </div>
+          <!-- End Scroll To Top -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    </body>
+</html>

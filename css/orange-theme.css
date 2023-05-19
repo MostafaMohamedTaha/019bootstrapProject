@@ -1,0 +1,23 @@
+/* Start Default Theme */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+ .navbar-inverse .navbar-nav > .active > a:focus,
+ .statistics .stats:hover,
+ .about span,
+ .footer .copyright span,
+ .footer h3,
+ .navbar-brand span{
+    color: #ebc82b;
+}
+/* .navbar-brand span {color:#873dc4;} */
+.dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus,
+ .option-box .check-gear,
+ .option-box .color-option ul li {
+    background-color: #ebc82b;
+ }
+ .option-box .color-option,
+ .testimonials .carousel-indicators li.active,
+ .price .price_box:hover p {
+    border:3px solid #ebc82b;
+ }
